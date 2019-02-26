@@ -16,6 +16,9 @@
     
   </div>
 
+  @include('pages.slider')
+  <br><br>
+
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron">
     <h1>Sample Project</h1>
@@ -23,4 +26,6 @@
     building on or modifying it.
     </p>
   </div>
+
+
 @endsection

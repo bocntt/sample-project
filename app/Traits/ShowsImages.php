@@ -13,4 +13,15 @@ trait ShowsImages
                   . $imageModel->image_extension
                   . $this->noCache();
   }
+
+  /*
+   * @param $featuredImage
+   * @param $activeImages
+   * @return bool
+  */
+  private function notEnoughSliderImages($featuredImage, $activeImages) {
+    return (!$featuredImage->count() ||
+            !$activeImages->count() >= 1) ?
+          true : false;
+  }
 }

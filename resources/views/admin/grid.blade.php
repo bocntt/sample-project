@@ -59,4 +59,22 @@ magna mollis euismod. Donec sed odio dui. </p>
 <p><a class="btn btn-default" href="#"
 role="button">View details &raquo;</a></p>
 </div><!--/.col-xs-6.col-lg-4-->
+
+<div class="col-xs-6 col-lg-4">
+  <a href="/marketing-image">
+    <h2>Marketing Images</h2>
+  </a>
+  <p>
+    <a href="/marketing-image">
+      Use this link to manage your marketing images
+    </a>
+  </p>
+  <p>
+    <a href="/marketing-image"
+        class="btn btn-default"
+        role="button">
+      View details &raquo;
+    </a>
+  </p>
+</div>
 </div><!--/row-->

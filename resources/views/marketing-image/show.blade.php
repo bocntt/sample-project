@@ -78,6 +78,12 @@
           </div>
         </td>
       </tr>
+      <tr>
+        <th>Image Weight</th>
+      </tr>
+      <tr>
+        <td>{{ $marketingImage->image_weight }}</td>
+      </tr>
     </table>
   </div>
 

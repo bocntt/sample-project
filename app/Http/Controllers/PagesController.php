@@ -21,6 +21,7 @@ class PagesController extends Controller
                                     ->first();
     $activeImages = MarketingImage::where('is_featured', 0)
                                   ->where('is_active', 1)
+                                  ->orderBy('image_weight', 'asc')
                                   ->get();
 
     $count = count($activeImages);

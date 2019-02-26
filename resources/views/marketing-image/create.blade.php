@@ -83,6 +83,22 @@
       @endif
     </div>
 
+    <!-- image weight form input -->
+    <div class="form-group{{ $errors->has('image_weight') ? ' has-error' : '' }}">
+      <label for="" class="control-label">
+        Image Weight
+      </label>
+      <input type="number"
+              class="form-control"
+              name="image_weight"
+              value="{{ old('image_weight') ? old('image_weight') : 100 }}">
+      @if ($errors->has('image_weight'))
+        <span class="help-block">
+          <strong>{{ $errors->first('image_weight') }}</strong>
+        </span>
+      @endif
+    </div>
+
     <div class="form-group">
       <button type="submit"
               class="btn btn-primary btn-lg">

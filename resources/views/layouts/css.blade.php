@@ -9,7 +9,8 @@ href=
 -->
 <link rel="stylesheet" type="text/css" href="/css/sweetalert.css">
 <!-- App css -->
-<link rel="stylesheet" href="/css/app.css">
+<!-- <link rel="stylesheet" href="/css/app.css"> -->
+<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 <style>
   body{
     padding-top: 65px;

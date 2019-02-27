@@ -8,11 +8,13 @@
   </head>
   <body role="document">
     @include('layouts.facebook')
-    @include('layouts.nav')
-    <div class="container theme-showcase" role="main">
-      @yield('content')
-      <hr>
-      @include('layouts.bottom')
+    <div id="app">
+      @include('layouts.nav')
+      <div class="container theme-showcase" role="main">
+        @yield('content')
+        <hr>
+        @include('layouts.bottom')
+      </div>
     </div>
     @include('layouts.scripts')
     @include('Alerts::show')

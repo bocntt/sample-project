@@ -9,6 +9,9 @@ use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use App\Http\Requests;
 use Socialite;
+use Illuminate\Auth\Events\Registered;
+use App\Mail\RegistrationEmail;
+use App\Events\RegistrationCompleted;
 
 class AuthController extends RegisterController
 {
@@ -56,6 +59,20 @@ class AuthController extends RegisterController
     }
     $this->incrementLoginAttempts($request);
     return $this->sendFailedLoginResponse($request);
+  }
+
+  public function register(Request $request) {
+      $this->validator($request->all())->validate();
+
+      event(new Registered($user = $this->create($request->all())));
+
+      // $this->guard()->login($user);
+      Auth::guard()->login($user);
+
+      event(new RegistrationCompleted($user));
+
+      return $this->registered($request, $user)
+                      ?: redirect($this->redirectPath());
   }
 
   public function redirectToProvider($provider) {

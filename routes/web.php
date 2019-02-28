@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Auth::routes();
+// Auth::routes();
 
 // admin route
 
@@ -24,6 +24,16 @@ Route::post('login', 'Auth\AuthController@login');
 
 Route::post('logout', 'Auth\AuthController@logout')
       ->name('logout');
+
+// Registration routes
+Route::get('register', 'Auth\AuthController@showRegistrationForm')
+      ->name('register');
+Route::post('register', 'Auth\AuthController@register');
+
+// sociatlite routes
+Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
+
+Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
 
 // Home page route
 
@@ -57,10 +67,6 @@ Route::get('terms-of-service', 'PagesController@terms');
 
 // privicy route
 Route::get('privacy', 'PagesController@privacy');
-
-// sociatlite routes
-Route::get('auth/{provider}', 'Auth\AuthController@redirectToProvider');
-Route::get('auth/{provider}/callback', 'Auth\AuthController@handleProviderCallback');
 
 // Profile
 Route::get('show-profile', 'ProfileController@showProfileToUser')

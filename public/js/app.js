@@ -45742,7 +45742,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', __webpack_require__(/*! ./components/Example.vue */ "./resources/assets/js/components/Example.vue"));
+Vue.component('example', __webpack_require__(/*! ./components/Example.vue */ "./resources/assets/js/components/Example.vue").default);
 Vue.component('widget-grid', __webpack_require__(/*! ./components/WidgetGrid.vue */ "./resources/assets/js/components/WidgetGrid.vue").default);
 Vue.component('marketing-image-grid', __webpack_require__(/*! ./components/MarketingImageGrid.vue */ "./resources/assets/js/components/MarketingImageGrid.vue").default);
 var app = new Vue({
@@ -45879,15 +45879,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!***************************************************************!*\
   !*** ./resources/assets/js/components/MarketingImageGrid.vue ***!
   \***************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _MarketingImageGrid_vue_vue_type_template_id_2ebee69c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MarketingImageGrid.vue?vue&type=template&id=2ebee69c& */ "./resources/assets/js/components/MarketingImageGrid.vue?vue&type=template&id=2ebee69c&");
 /* harmony import */ var _MarketingImageGrid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./MarketingImageGrid.vue?vue&type=script&lang=js& */ "./resources/assets/js/components/MarketingImageGrid.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _MarketingImageGrid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _MarketingImageGrid_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -45917,7 +45916,7 @@ component.options.__file = "resources/assets/js/components/MarketingImageGrid.vu
 /*!****************************************************************************************!*\
   !*** ./resources/assets/js/components/MarketingImageGrid.vue?vue&type=script&lang=js& ***!
   \****************************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -17,6 +17,7 @@ window.Vue = require('vue');
 
 Vue.component('example', require('./components/Example.vue'));
 Vue.component('widget-grid', require('./components/WidgetGrid.vue').default);
+Vue.component('marketing-image-grid', require('./components/MarketingImageGrid.vue').default);
 
 const app = new Vue({
     el: '#app'

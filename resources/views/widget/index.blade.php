@@ -14,38 +14,7 @@
   <h2>Widgets</h2>
   <hr>
 
-  @if($widgets->count() > 0)
-    <table class="table table-hover table-bordered table-striped">
-      <thead>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Date Created</th>
-      </thead>
-      <tbody>
-        
-        @foreach($widgets as $widget)
-          <tr>
-            <td>
-              {{ $widget->id }}
-            </td>
-            <td>
-              <a href="/widget/{{ $widget->id }}-{{ $widget->slug }}">
-                {{ $widget->name }}
-              </a>
-            </td>
-            <td>
-              {{ $widget->created_at }}
-            </td>
-          </tr>
-        @endforeach
-
-      </tbody>
-    </table>
-  @else
-    Sorry, no Widgets
-  @endif
-
-  {{ $widgets->links() }}
+  <widget-grid></widget-grid>
 
   <div>
     <a href="/widget/create">

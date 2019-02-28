@@ -9,6 +9,9 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 
+// bring in main
+@import "main";
+
 body{
   padding-top: 65px;
   background-color: white;

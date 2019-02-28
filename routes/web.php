@@ -80,3 +80,6 @@ Route::post('settings', 'SettingsController@update')
 
 // marketing-image
 Route::resource('marketing-image', 'MarketingImageController');
+
+// Api Routes
+Route::get('api/widget-data', 'ApiController@widgetData');

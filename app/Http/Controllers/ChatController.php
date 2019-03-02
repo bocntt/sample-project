@@ -34,7 +34,9 @@ class ChatController extends Controller
         'message' => request()->get('message')
       ]);
 
-      // broadcase(new MessagePosted($message, $user))->toOthers();
+      broadcase(new MessagePosted($message, $user))->toOthers();
+      // or
+      // event(new MessagePosted($message, $user));
 
       return ['status' => 'OK'];
     }

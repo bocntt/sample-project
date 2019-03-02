@@ -13,7 +13,7 @@ class Kernel extends ConsoleKernel
      * @var array
      */
     protected $commands = [
-        //
+        Commands\RemoveOldMessages::class,
     ];
 
     /**
@@ -26,6 +26,9 @@ class Kernel extends ConsoleKernel
     {
         // $schedule->command('inspire')
         //          ->hourly();
+
+        $schedule->command(RemoveOldMessages::class)
+                    ->twiceDaily(1, 13);
     }
 
     /**

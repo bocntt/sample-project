@@ -15,21 +15,38 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue').default);
-Vue.component('widget-grid', require('./components/WidgetGrid.vue').default);
-Vue.component('marketing-image-grid', require('./components/MarketingImageGrid.vue').default);
-Vue.component('parent', require('./components/Parent.vue').default);
-Vue.component('child', require('./components/Child.vue').default);
-Vue.component('add-item', require('./components/AddItem.vue').default);
+require('./components');
 
 const app = new Vue({
     el: '#app',
     data: {
-      items: ['apples', 'berries', 'bananas']
+      items: ['apples', 'berries', 'bananas'],
+      messages: [],
+      currentuser: '',
+      roomCount: [],
     },
     methods: {
       addItem(item) {
         this.items.push(item.item);
-      }
+      },
+      addMessage(message) {
+        // add to existing mesasges
+        this.messages.push(message);
+        axios.post('/chat-messages', message)
+              .then(response => {
+              })
+              .catch(error => {
+                console.log(error);
+              });
+      },
+    },
+    created() {
+      axios.get('/chat-messages').then(response => {
+        this.messages = response.data;
+      });
+
+      axios.get('/username').then(response => {
+        this.currentuser = response.data;
+      });
     }
 });

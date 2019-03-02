@@ -1,0 +1,12 @@
+Vue.component('example',
+  require('./components/Example.vue').default);
+Vue.component('widget-grid',
+  require('./components/WidgetGrid.vue').default);
+Vue.component('marketing-image-grid',
+  require('./components/MarketingImageGrid.vue').default);
+Vue.component('chat-message',
+  require('./components/ChatMessage.vue').default);
+Vue.component('chat-list',
+  require('./components/ChatList.vue').default);
+Vue.component('chat-create',
+  require('./components/ChatCreate.vue').default);

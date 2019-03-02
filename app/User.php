@@ -72,4 +72,8 @@ class User extends Authenticatable
     public function showNewsletterStatusOf($user) {
         return $user->is_subscribed == 1 ? 'Yes' : 'No';
     }
+
+    public function messages() {
+        return $this->hasMany(Message::class);
+    }
 }

@@ -91,3 +91,16 @@ Route::resource('marketing-image', 'MarketingImageController');
 Route::get('api/widget-data', 'ApiController@widgetData');
 
 Route::get('api/marketing-image-data', 'ApiController@marketingImageData');
+
+// Chat routes
+Route::get('/chat-messages', 'ChatController@getMessages')
+      ->middleware('auth');
+
+Route::post('/chat-messages', 'ChatController@postMessages')
+      ->middleware('auth');
+
+Route::get('/chat', 'ChatController@index')
+      ->middleware('auth');
+
+Route::get('/username', 'UsernameController@show')
+      ->middleware('auth');

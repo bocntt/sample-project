@@ -17,15 +17,15 @@ class TestController extends Controller
      */
     public function index()
     {
-        throw new EmailNotProvidedException('facebook');
+        // throw new EmailNotProvidedException('facebook');
 
-        $beatles = ['John', 'Paul', 'George', 'Ringo'];
-        // alert()->overlay('Listen', 'I hear beatle music!', 'success');
-        // alert()->error('Problem', 'Cannot hear');
-        // alert()->success('Title', 'Message');
-        session()->flash('status', 'Task was successful!');
+        // $beatles = ['John', 'Paul', 'George', 'Ringo'];
+        // // alert()->overlay('Listen', 'I hear beatle music!', 'success');
+        // // alert()->error('Problem', 'Cannot hear');
+        // // alert()->success('Title', 'Message');
+        // session()->flash('status', 'Task was successful!');
         
-        return view('test.index', compact('beatles'));
+        return view('test.index');
     }
 
     /**

@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"Regis",
+				"RegistrationEmail"
+			],
+			[
+				"market",
+				"marketing-image"
+			],
+			[
+				"las",
+				"last_page"
+			],
+			[
+				"sor",
+				"sortOrder"
+			],
+			[
+				"marketing",
+				"marketing-image-data"
+			],
+			[
+				"first",
+				"first_page_url"
+			],
+			[
+				"net",
+				"next_page_url"
+			],
+			[
+				"grid",
+				"gridData"
+			],
+			[
+				"get",
+				"getData"
+			],
+			[
+				"sort",
+				"sortOrder"
+			],
+			[
+				"last",
+				"last_page_url"
+			],
+			[
+				"check",
+				"checkUrlNotNull"
+			],
+			[
+				"cl",
+				"column"
+			],
+			[
+				"wi",
+				"widget-data"
+			],
+			[
 				"pag",
 				"pages"
 			],
@@ -12,36 +68,12 @@
 				"pages"
 			],
 			[
-				"check",
-				"checkPage"
-			],
-			[
-				"las",
-				"last_page"
-			],
-			[
 				"fir",
 				"first_page_url"
 			],
 			[
-				"last",
-				"last_page"
-			],
-			[
-				"sor",
-				"sortOrder"
-			],
-			[
 				"s",
 				"sortOrder"
-			],
-			[
-				"get",
-				"getPage"
-			],
-			[
-				"sort",
-				"sortKey"
 			],
 			[
 				"next",
@@ -74,10 +106,6 @@
 			[
 				"carousel-",
 				"carousel-example-generic"
-			],
-			[
-				"market",
-				"marketingImage"
 			],
 			[
 				"thumb",
@@ -265,10 +293,6 @@
 			],
 			[
 				"gir",
-				"grid-column\tproperty"
-			],
-			[
-				"grid",
 				"grid-column\tproperty"
 			],
 			[
@@ -490,36 +514,9 @@
 			[
 				"inline",
 				"inline-block\tdisplay"
-			],
-			[
-				"hav",
-				"have_posts〔function〕"
-			],
-			[
-				"flip",
-				"flipmart_scripts"
-			],
-			[
-				"wp_enqueue_",
-				"wp_enqueue_script"
-			],
-			[
-				"flipmar",
-				"flipmart_widget_init"
-			],
-			[
-				"add_theme",
-				"add_theme_support〔function〕"
-			],
-			[
-				"modal-",
-				"modal-body \tBootstrap 3 Class"
 			]
 		]
 	},
-	"buffers":
-	[
-	],
 	"build_system": "",
 	"build_system_choices":
 	[
@@ -532,11 +529,11 @@
 		"selected_items":
 		[
 			[
-				"install",
+				"Package Control: ",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: ",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
@@ -599,23 +596,42 @@
 		"side_bar_visible": true,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/var/www/html/sample-project"
-	],
 	"file_history":
 	[
+		"/var/www/html/sample-project/app/Listeners/SendRegistrationEmail.php",
+		"/var/www/html/sample-project/app/Http/Controllers/Auth/AuthController.php",
+		"/var/www/html/sample-project/routes/web.php",
+		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/var/www/html/sample-project/app/Events/RegistrationCompleted.php",
+		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
+		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php",
+		"/var/www/html/sample-project/.env",
+		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/default.css",
+		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/sample.css",
+		"/var/www/html/sample-project/config/mail.php",
+		"/var/www/html/sample-project/app/Providers/EventServiceProvider.php",
+		"/var/www/html/sample-project/app/Http/Controllers/Auth/RegisterController.php",
+		"/var/www/html/sample-project/resources/views/auth/register.blade.php",
+		"/var/www/html/sample-project/resources/views/emails/registration-email.blade.php",
+		"/var/www/html/sample-project/app/Mail/RegistrationEmail.php",
+		"/var/www/html/sample-project/resources/assets/js/app.js",
+		"/var/www/html/sample-project/resources/views/Emails/registration-email.blade.php",
+		"/var/www/html/sample-project/config/app.php",
+		"/var/www/html/sample-project/resources/assets/js/components/MarketingImageGrid.vue",
+		"/var/www/html/sample-project/app/Http/Controllers/ApiController.php",
+		"/var/www/html/sample-project/app/Queries/GridQueries/MarketingImageQuery.php",
+		"/var/www/html/sample-project/app/Http/Controllers/MarketingImageController.php",
+		"/var/www/html/sample-project/resources/views/marketing-image/index.blade.php",
 		"/var/www/html/sample-project/app/Queries/GridQueries/GridQuery.php",
+		"/var/www/html/sample-project/app/Queries/GridQueries/Contracts/DataQuery.php",
+		"/var/www/html/sample-project/resources/assets/js/components/WidgetGrid.vue",
+		"/var/www/html/sample-project/resources/views/widget/index.blade.php",
 		"/var/www/html/sample-project/app/Queries/GridQueries/WidgetQuery.php",
+		"/var/www/html/sample-project/resources/views/layouts/meta.blade.php",
 		"/var/www/html/sample-project/app/Http/Controllers/WidgetController.php",
 		"/var/www/html/sample-project/resources/assets/sass/main.scss",
 		"/var/www/html/sample-project/resources/assets/sass/app.scss",
-		"/var/www/html/sample-project/resources/assets/js/app.js",
-		"/var/www/html/sample-project/resources/views/widget/index.blade.php",
-		"/var/www/html/sample-project/app/Queries/GridQueries/Contracts/DataQuery.php",
-		"/var/www/html/sample-project/app/Http/Controllers/ApiController.php",
 		"/var/www/html/sample-project/resources/assets/js/components/Example.vue",
-		"/var/www/html/sample-project/routes/web.php",
 		"/var/www/html/sample-project/app/Queries/GridQueties/GridQuery.php",
 		"/var/www/html/sample-project/app/Queries/GridQuery.php",
 		"/var/www/html/sample-project/app/Queries/GridQueties/WidgetQuery.php",
@@ -629,8 +645,6 @@
 		"/var/www/html/sample-project/resources/views/layouts/css.blade.php",
 		"/var/www/html/sample-project/resources/views/layouts/scripts.blade.php",
 		"/var/www/html/sample-project/app/Http/Requests/EditImageRequest.php",
-		"/var/www/html/sample-project/app/Http/Controllers/MarketingImageController.php",
-		"/var/www/html/sample-project/resources/views/marketing-image/index.blade.php",
 		"/var/www/html/sample-project/resources/views/layouts/nav.blade.php",
 		"/var/www/html/sample-project/resources/views/pages/slider.blade.php",
 		"/var/www/html/sample-project/app/Traits/ShowsImages.php",
@@ -638,11 +652,9 @@
 		"/var/www/html/sample-project/database/migrations/2019_02_26_143205_add_image_weight_to_marketing_images_table.php",
 		"/var/www/html/sample-project/resources/views/marketing-image/create.blade.php",
 		"/var/www/html/sample-project/app/MarketingImage.php",
-		"/var/www/html/sample-project/resources/views/auth/register.blade.php",
 		"/var/www/html/sample-project/resources/views/layouts/bottom.blade.php",
 		"/var/www/html/sample-project/app/Utilities/Copyright.php",
 		"/var/www/html/sample-project/app/Providers/AppServiceProvider.php",
-		"/var/www/html/sample-project/config/app.php",
 		"/var/www/html/sample-project/config/image-defaults.php",
 		"/var/www/html/sample-project/resources/views/auth/login.blade.php",
 		"/var/www/html/sample-project/app/Http/Controllers/Auth/ForgotPasswordController.php",
@@ -650,8 +662,6 @@
 		"/var/www/html/sample-project/resources/views/settings/edit.blade.php",
 		"/var/www/html/sample-project/app/Http/Controllers/Auth/ResetPasswordController.php",
 		"/var/www/html/sample-project/app/Http/Controllers/Auth/LoginController.php",
-		"/var/www/html/sample-project/app/Http/Controllers/Auth/AuthController.php",
-		"/var/www/html/sample-project/.env",
 		"/var/www/html/sample-project/config/session.php",
 		"/var/www/html/sample-project/database/migrations/2019_02_12_045233_create_profiles_table.php",
 		"/var/www/html/sample-project/app/Profile.php",
@@ -675,8 +685,6 @@
 		"/var/www/html/sample-project/app/Exceptions/NoActiveAccountException.php",
 		"/var/www/html/sample-project/app/Exceptions/Handler.php",
 		"/var/www/html/sample-project/database/migrations/2019_02_12_022351_add_is_subscribed_to_users_table.php",
-		"/var/www/html/sample-project/app/Http/Controllers/Auth/RegisterController.php",
-		"/var/www/html/sample-project/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
 		"/var/www/html/sample-project/resources/views/pages/privacy.blade.php",
 		"/var/www/html/sample-project/resources/views/pages/terms-of-service.blade.php",
 		"/var/www/html/sample-project/app/Http/Controllers/AdminController.php",
@@ -698,7 +706,6 @@
 		"/var/www/html/sample-project/database/factories/ModelFactory.php",
 		"/var/www/html/sample-project/database/migrations/2019_02_11_050509_create_widgets_table.php",
 		"/var/www/html/sample-project/resources/views/auth/passwords/email.blade.php",
-		"/var/www/html/sample-project/resources/views/layouts/meta.blade.php",
 		"/var/www/html/sample-project/resources/views/test/index.blade.php",
 		"/var/www/html/sample-project/config/database.php",
 		"/home/bonguyen/Dev/laravel/sample-project/routes/web.php",
@@ -718,25 +725,11 @@
 		"/home/bonguyen/Dev/node-express/1/controllers/auth.controller.js",
 		"/home/bonguyen/Dev/node-express/1/controllers/cart.controller.js",
 		"/home/bonguyen/Dev/node-express/1/.gitignore",
-		"/home/bonguyen/Dev/node-express/1/routers/transfer.router.js",
-		"/home/bonguyen/Dev/node-express/1/controllers/product.controller.js",
-		"/home/bonguyen/Dev/node-express/1/controllers/user.controller.js",
-		"/home/bonguyen/Dev/node-express/1/views/users/index.pug",
-		"/home/bonguyen/Dev/node-express/1/models/product.model.js",
-		"/home/bonguyen/Dev/node-express/1/models/user.model.js",
-		"/home/bonguyen/Dev/node-express/1/db.json",
-		"/home/bonguyen/Dev/node-express/1/controllers/transfer.controller.js",
-		"/home/bonguyen/Dev/node-express/1/index.js",
-		"/home/bonguyen/Dev/node-express/1/views/transfer/create.pug",
-		"/home/bonguyen/Dev/node-express/1/views/product/index.pug",
-		"/home/bonguyen/Dev/node-express/1/db.js",
-		"/home/bonguyen/Dev/node-express/1/middlewares/transfer.middleware.js",
-		"/home/bonguyen/Dev/node-express/1/views/cart/index.pug",
-		"/home/bonguyen/Dev/node-express/1/routers/cart.router.js"
+		"/home/bonguyen/Dev/node-express/1/routers/transfer.router.js"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -751,6 +744,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"register",
+			"convertBoolean",
+			" dd(",
+			"dd(",
+			"dd",
 			"checkUrlNotNull",
 			"setUpdatedImageValues",
 			"notEnoughSliderImages",
@@ -814,14 +812,6 @@
 		"whole_word": false,
 		"wrap": true
 	},
-	"groups":
-	[
-		{
-			"sheets":
-			[
-			]
-		}
-	],
 	"incremental_find":
 	{
 		"height": 26.0
@@ -874,7 +864,6 @@
 		"height": 29.0
 	},
 	"pinned_build_system": "",
-	"project": "sample-project.sublime-project",
 	"replace":
 	{
 		"height": 48.0
@@ -887,8 +876,116 @@
 		"selected_items":
 		[
 			[
+				"RegistersUsers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"Registered",
+				"vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php"
+			],
+			[
+				"AuthController",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"web",
+				"routes/web.php"
+			],
+			[
+				"registercontro",
+				"app/Http/Controllers/Auth/RegisterController.php"
+			],
+			[
+				"authcontro",
+				"app/Http/Controllers/Auth/AuthController.php"
+			],
+			[
+				"EventSeri",
+				"app/Providers/EventServiceProvider.php"
+			],
+			[
+				"mail",
+				"config/mail.php"
+			],
+			[
+				"mail/html/themes.css",
+				"vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/default.css"
+			],
+			[
+				"default.css",
+				"vendor/laravel/framework/src/Illuminate/Mail/resources/views/html/themes/default.css"
+			],
+			[
+				"RegisterController",
+				"app/Http/Controllers/Auth/RegisterController.php"
+			],
+			[
+				"regiseruser",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"registra",
+				"resources/views/emails/registration-email.blade.php"
+			],
+			[
+				"register.blade",
+				"resources/views/auth/register.blade.php"
+			],
+			[
+				"registeruser",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"registercon",
+				"app/Http/Controllers/Auth/RegisterController.php"
+			],
+			[
+				"app.ph",
+				"config/app.php"
+			],
+			[
+				".env",
+				".env"
+			],
+			[
+				"app.js",
+				"resources/assets/js/app.js"
+			],
+			[
+				"config/mail",
+				"config/mail.php"
+			],
+			[
+				"gridquery",
+				"app/Queries/GridQueries/GridQuery.php"
+			],
+			[
+				"marketing-image/index",
+				"resources/views/marketing-image/index.blade.php"
+			],
+			[
+				"marketingimage",
+				"app/Http/Controllers/MarketingImageController.php"
+			],
+			[
+				"dataquer",
+				"app/Queries/GridQueries/Contracts/DataQuery.php"
+			],
+			[
+				"apicontro",
+				"app/Http/Controllers/ApiController.php"
+			],
+			[
 				"web.php",
 				"routes/web.php"
+			],
+			[
+				"components/WidgetGrid.vue",
+				"resources/assets/js/components/WidgetGrid.vue"
+			],
+			[
+				"dataquery",
+				"app/Queries/GridQueries/Contracts/DataQuery.php"
 			],
 			[
 				"api",
@@ -905,14 +1002,6 @@
 			[
 				"widgetcon",
 				"app/Http/Controllers/WidgetController.php"
-			],
-			[
-				"apicontro",
-				"app/Http/Controllers/ApiController.php"
-			],
-			[
-				"web",
-				"routes/web.php"
 			],
 			[
 				"example.vu",
@@ -941,10 +1030,6 @@
 			[
 				"packa",
 				"package.json"
-			],
-			[
-				"marketing-image/index",
-				"resources/views/marketing-image/index.blade.php"
 			],
 			[
 				"arket",
@@ -1099,10 +1184,6 @@
 				"config/session.php"
 			],
 			[
-				".env",
-				".env"
-			],
-			[
 				"auth",
 				"app/Http/Controllers/Auth/AuthController.php"
 			],
@@ -1151,10 +1232,6 @@
 				"app/Http/Controllers/Auth/AuthController.php"
 			],
 			[
-				"AuthController",
-				"app/Http/Controllers/Auth/LoginController.php"
-			],
-			[
 				"loginco",
 				"app/Http/Controllers/Auth/LoginController.php"
 			],
@@ -1189,10 +1266,6 @@
 			[
 				"Page",
 				"app/Http/Controllers/PagesController.php"
-			],
-			[
-				"registeruser",
-				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
 			],
 			[
 				"adminco",
@@ -1313,90 +1386,6 @@
 			[
 				"inc/core/class.shinetheme.php",
 				"wp-content\\themes\\traveler\\inc\\core\\class.shinetheme.php"
-			],
-			[
-				"template-login.php",
-				"wp-content\\themes\\traveler\\template-login.php"
-			],
-			[
-				"st-them",
-				"wp-content\\themes\\traveler\\inc\\st-theme-options.php"
-			],
-			[
-				"blog/single/content",
-				"wp-content\\themes\\traveler\\st_templates\\blog\\single\\content-meta.php"
-			],
-			[
-				"blog/content-loop",
-				"wp-content\\themes\\traveler\\st_templates\\blog\\content-loop.php"
-			],
-			[
-				"activity/search-form-2",
-				"wp-content\\themes\\traveler\\st_templates\\activity\\search-form-2.php"
-			],
-			[
-				"search-loading",
-				"wp-content\\themes\\traveler\\st_templates\\search-loading.php"
-			],
-			[
-				"breadcrumb",
-				"wp-content\\themes\\traveler\\breadcrumb.php"
-			],
-			[
-				"search-load",
-				"wp-content\\themes\\traveler\\st_templates\\search-loading.php"
-			],
-			[
-				"activity/content-activity",
-				"wp-content\\themes\\traveler\\st_templates\\activity\\content-activity.php"
-			],
-			[
-				"template-activity-search.php",
-				"wp-content\\themes\\traveler\\template-activity-search.php"
-			],
-			[
-				"/blog/single/comment-list.php",
-				"wp-content\\themes\\traveler\\st_templates\\blog\\single\\comment-list.php"
-			],
-			[
-				"global.css",
-				"themes\\bavuong\\css\\global.css"
-			],
-			[
-				"header.php",
-				"header.php"
-			],
-			[
-				"init.php",
-				"init.php"
-			],
-			[
-				"header.tpl",
-				"modules\\blockyahoostatus\\header.tpl"
-			],
-			[
-				"file",
-				"include\\tool\\Files.php"
-			],
-			[
-				"function",
-				"include\\tool\\functions.php"
-			],
-			[
-				"ajax",
-				"include\\tool\\Output\\Ajax.php"
-			],
-			[
-				"users",
-				"sitemgr\\adodb\\users_adodb.inc"
-			],
-			[
-				"adminl",
-				"sitemgr\\themes\\starter\\dist\\css\\AdminLTE.css"
-			],
-			[
-				"membership_ado",
-				"sitemgr\\adodb\\membership_adodb.inc"
 			]
 		],
 		"width": 0.0
@@ -1419,14 +1408,13 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":

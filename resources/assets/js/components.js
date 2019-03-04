@@ -10,3 +10,7 @@ Vue.component('chat-list',
   require('./components/ChatList.vue').default);
 Vue.component('chat-create',
   require('./components/ChatCreate.vue').default);
+Vue.component('category-grid', 
+  require('./components/CategoryGrid.vue').default);
+Vue.component('subcategory-grid', 
+  require('./components/SubcategoryGrid.vue').default);

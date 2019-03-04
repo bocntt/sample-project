@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Queries\GridQueries\GridQuery;
 use App\Queries\GridQueries\WidgetQuery;
 use App\Queries\GridQueries\MarketingImageQuery;
+use App\Queries\GridQueries\CategoryQuery;
+use App\Queries\GridQueries\SubcategoryQuery;
 
 class ApiController extends Controller
 {
@@ -28,5 +30,13 @@ class ApiController extends Controller
 
   public function marketingImageData(Request $request) {
     return GridQuery::sendData($request, new MarketingImageQuery);
+  }
+
+  public function categoryData(Request $request) {
+    return GridQuery::sendData($request, new CategoryQuery);
+  }
+
+  public function subcategoryData(Request $request) {
+    return GridQuery::sendData($request, new SubcategoryQuery);
   }
 }

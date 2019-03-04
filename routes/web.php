@@ -104,3 +104,14 @@ Route::get('/chat', 'ChatController@index')
 
 Route::get('/username', 'UsernameController@show')
       ->middleware('auth');
+
+// Custom Validattor & Dependent Dropdown
+Route::get('api/category-data', 'ApiController@categoryData');
+
+Route::get('api/subcategory-data', 'ApiController@subcategoryData');
+
+// Category route
+Route::resource('category', 'CategoryController');
+
+// Subcategory route
+Route::resource('subcategory', 'SubcategoryController');

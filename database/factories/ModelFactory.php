@@ -44,3 +44,18 @@ $factory->define(App\Message::class, function($faker) {
         'user_id' => 1
     ];
 });
+
+// categories
+$factory->define(App\Category::class, function(Faker\Generator $faker) {
+    return [
+        'name' => $faker->unique()->word,
+    ];
+});
+
+// subcategories
+$factory->define(App\Subcategory::class, function(Faker\Generator $faker) {
+    return [
+        'name' => $faker->unique()->word,
+        'category_id' => $faker->unique()->randomNumber
+    ];
+});

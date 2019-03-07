@@ -19,4 +19,11 @@ trait OwnsRecord {
 
     return $modelRecord->user_id === Auth::id();
   }
+
+  public function allowUserUpdate($user) {
+    if (Auth::user()->isAdmin()) {
+      return true;
+    }
+    return $user->id === Auth::id();
+  }
 }

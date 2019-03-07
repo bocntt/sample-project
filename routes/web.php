@@ -115,3 +115,14 @@ Route::resource('category', 'CategoryController');
 
 // Subcategory route
 Route::resource('subcategory', 'SubcategoryController');
+
+// Lession
+Route::get('lesson/create', 'LessonController@create')
+      ->name('lesson.create');
+
+Route::get('lesson/{lesson}-{slug?}', 'LessonController@show')
+      ->name('lesson.show');
+
+Route::resource('lesson', 'LessonController', ['except' => ['show', 'create']]);
+
+Route::get('api/lesson-data', 'ApiController@lessonData');

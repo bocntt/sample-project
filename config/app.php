@@ -177,6 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        App\Providers\ValidatorServiceProvider::class,
+
         Creativeorange\Gravatar\GravatarServiceProvider::class,
         Socieboy\Alerts\AlertServiceProvider::class,
 
@@ -240,6 +242,7 @@ return [
         'Html' => Collective\Html\HtmlFacade::class,
         'Image' => Intervention\Image\Facades\Image::class,
 
+        'validator' => App\Providers\ValidatorServiceProvider::class,
     ],
 
 ];

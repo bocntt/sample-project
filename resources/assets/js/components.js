@@ -14,3 +14,9 @@ Vue.component('category-grid',
   require('./components/CategoryGrid.vue').default);
 Vue.component('subcategory-grid', 
   require('./components/SubcategoryGrid.vue').default);
+Vue.component('lesson-grid',
+  require('./components/LessonGrid.vue').default);
+Vue.component('lesson-create-category',
+  require('./components/LessonCreateCategory.vue').default);
+Vue.component('lesson-edit-category',
+  require('./components/LessonEditCategory.vue').default);

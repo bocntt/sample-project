@@ -69,7 +69,7 @@
           <td>{{ $user->showNewsletterStatusOf($user) }}</td>
           <td>{{ $user->showAdminStatusOf($user) }}</td>
           <td>{{ $user->showStatusOf($user) }}</td>
-          <td>{{ $user->created_at->format('m-d-Y') }}</td>
+          <td>{{ $user->created_at }}</td>
           @if (Auth::user()->adminOrCurrentUserOwns($user))
             <td>
               <a href="/user/{{ $user->id }}/edit">

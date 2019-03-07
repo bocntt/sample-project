@@ -26,7 +26,7 @@
 
   @endif
 
-  <h2>Eit Your Record</h2>
+  <h2>Edit Your Record</h2>
   <hr>
   <form action="{{ url('/user/' . $user->id ) }}"
         class="form"
@@ -44,6 +44,19 @@
       @if ($errors->has('name'))
         <span class="help-block">
           <strong>{{ $error->first('name') }}</strong>
+        </span>
+      @endif
+    </div>
+
+    <div class="form-group{{ $errors->has('email') ? ' has-error' : ''}}">
+      <label class="control-label">Email</label>
+      <input type="text"
+            class="form-control"
+            name="email"
+            value="{{ $user->email }}">
+      @if ($errors->has('email'))
+        <span class="help-block">
+          <strong>{{ $error->first('email') }}</strong>
         </span>
       @endif
     </div>
@@ -66,6 +79,24 @@
       @endif
     </div>
 
+    <div class="form-group{{ $errors->has('status_id') ? ' has-error' : ''}}">
+      <label class="control-label">Status?</label>
+      <select name="status_id" 
+              id="status_id"
+              class="form-control">
+        <option value="{{ $user->status_id }}">
+          {{ $user->showAdminStatusOf($user) }}
+        </option>
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+      @if ($errors->has('status_id'))
+        <span class="help-block">
+          <strong>{{ $errors->first('status_id' )}}</strong>
+        </span>
+      @endif
+    </div>
+
     <div class="form-group">
       <button type="submit"
               class="btn btn-primary btn-lg">
@@ -73,5 +104,7 @@
       </button>
     </div>
   </form>
+
+  @include('errors.list')
 
 @endsection
